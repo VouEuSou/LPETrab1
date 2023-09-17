@@ -60,10 +60,6 @@ const Charts = () => {
         yearChartData.push([year, yearCounts[year]]);
       }
 
-      console.log(dadosDoBanco);
-      console.log(genreChartData);
-      console.log(yearChartData);
-
       setAlbums(dadosDoBanco);
       setGenreChartData(genreChartData);
       setYearChartData(yearChartData);
@@ -94,6 +90,25 @@ const Charts = () => {
                   Total de Álbuns
                 </Card.Title>
                 <Card.Text>{albums.length - 1}</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col">
+            <Card>
+              <Card.Body>
+                <Card.Title style={{ fontWeight: "bold" }}>
+                  Nº de gêneros
+                </Card.Title>
+                <Card.Text>
+                  {
+                    albums.reduce((total, album) => {
+                      if (!total.includes(album.genero)) {
+                        total.push(album.genero);
+                      }
+                      return total;
+                    }, []).length
+                  }
+                </Card.Text>
               </Card.Body>
             </Card>
           </div>
@@ -132,10 +147,9 @@ const Charts = () => {
             <Card>
               <Card.Body>
                 <Card.Title style={{ fontWeight: "bold" }}>
-                  Mais caro
+                  Album mais caro
                 </Card.Title>
                 <Card.Text>
-                  {/* Nome e valor */}
                   {
                     albums.reduce((max, album) =>
                       +album.preco > +max.preco ? album : max
@@ -156,12 +170,20 @@ const Charts = () => {
 
       <div className="container text-center mb-4 row">
         <div className="col">
-          <Button onClick={() => setChartToShow("genre")} >
+          <Button
+            variant={chartToShow === "genre" ? "primary" : "secondary"}
+            onClick={() => setChartToShow("genre")}
+          >
             Albums por Gênero
           </Button>
         </div>
         <div className="col">
-          <Button onClick={() => setChartToShow("year")}>Albums por Ano</Button>
+          <Button
+            variant={chartToShow === "year" ? "primary" : "secondary"}
+            onClick={() => setChartToShow("year")}
+          >
+            Albums por Ano
+          </Button>
         </div>
       </div>
       <div
