@@ -1,0 +1,133 @@
+{
+  "albuns": [
+    {
+      "titulo": "Born This Way",
+      "genero": "Pop",
+      "preco": "30",
+      "data": "2009-02",
+      "artista": "Lady Gaga",
+      "capa": "https://m.media-amazon.com/images/I/71VJwUwpOzL._UF1000,1000_QL80_.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "SOUR",
+      "artista": "Olivia Rodrigo",
+      "preco": "50",
+      "data": "2021-12",
+      "genero": "Pop",
+      "capa": "https://rollingstone.uol.com.br/media/uploads/capa_olivia_rodrigo_completa_sour.jpeg",
+      "id": 9
+    },
+    {
+      "titulo": "Truque",
+      "genero": "Alternativo",
+      "preco": "60",
+      "data": "2023-08",
+      "artista": "Clarice Falcão",
+      "capa": "https://cebolaverde.com.br/wp-content/uploads/2023/08/Clarice-Falcao-Truque.jpg",
+      "id": 10
+    },
+    {
+      "titulo": "Lover",
+      "artista": "Taylor Swift",
+      "preco": "70",
+      "data": "2019-08",
+      "genero": "Pop",
+      "capa": "https://s2-g1.glbimg.com/SU_BSXqpPmQUSzzE4y_OagBC-3o=/0x0:1400x1400/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/z/s/FSHmXFTV2xJoT2Hz4gNA/lover-taylor.jpg",
+      "id": 11
+    },
+    {
+      "titulo": "Fearless",
+      "genero": "Pop",
+      "preco": "45",
+      "data": "2021-04",
+      "artista": "Taylor Swift",
+      "capa": "https://e.snmc.io/i/600/s/ac8f877aaa37accc3772908a59b5f4d2/8784356/taylor-swift-fearless-taylors-version-Cover-Art.jpg",
+      "id": 12
+    },
+    {
+      "titulo": "Montero",
+      "artista": "Lil Nas X",
+      "preco": "40",
+      "data": "2021-09",
+      "genero": "Hip-Hop",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/9/9f/Montero_-_Lil_Nas_X.png",
+      "id": 13
+    },
+    {
+      "titulo": "Happier Than Ever",
+      "artista": "Billie Eilish",
+      "preco": "55",
+      "data": "2021-07",
+      "genero": "Pop",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/e/e8/Happier_Than_Ever_%28%C3%A1lbum%29_-_Billie_Eilish.png",
+      "id": 15
+    },
+    {
+      "titulo": "Hallucinate",
+      "artista": "Dua Lipa",
+      "preco": "48",
+      "data": "2020-03",
+      "genero": "Pop",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/e/ed/Dua_Lipa_-_Hallucinate.png",
+      "id": 17
+    },
+    {
+      "titulo": "Justice",
+      "artista": "Justin Bieber",
+      "preco": "60",
+      "data": "2021-03",
+      "genero": "Pop",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/0/08/Justin_Bieber_-_Justice.png",
+      "id": 18
+    },
+    {
+      "titulo": "Solar Power",
+      "artista": "Lorde",
+      "preco": "65",
+      "data": "2021-08",
+      "genero": "Pop",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/f/f2/Lorde_solarpower.png",
+      "id": 19
+    },
+    {
+      "titulo": "Chemtrails Over The Country Club",
+      "artista": "Lana Del Rey",
+      "preco": "50",
+      "data": "2021-03",
+      "genero": "Indie",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/d/db/Chemtrails_over_the_Country_Club_-_Lana_Del_Rey.png",
+      "id": 20
+    }
+  ],
+  "generos": [
+    {
+      "nome": "Pop",
+      "id": 1
+    },
+    {
+      "nome": "Rock",
+      "id": 2
+    },
+    {
+      "nome": "Alternativo",
+      "id": 3
+    },
+    {
+      "nome": "Eletrônica",
+      "id": 4
+    },
+    {
+      "nome": "Samba",
+      "id": 5
+    },
+    {
+      "nome": "Blues",
+      "id": 6
+    },
+    {
+      "nome": "Indie",
+      "id": 8
+    }
+  ]
+}
