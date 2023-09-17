@@ -156,7 +156,7 @@ const Charts = () => {
 
       <div className="container text-center mb-4 row">
         <div className="col">
-          <Button onClick={() => setChartToShow("genre")}>
+          <Button onClick={() => setChartToShow("genre")} >
             Albums por Gênero
           </Button>
         </div>
